@@ -1,0 +1,126 @@
+/*-------LOADING-------*/
+img.loading-icon{
+  position: fixed!important;
+  left : 53%!important;
+  top : 50%!important;
+  margin-top : -150px!important;
+  width: 100px;
+  z-index: 1000!important;
+}
+
+.loading-page {
+  /* background-color: #6b6b6b59; */
+  width: 83vw;
+  height: 80vh;
+  position: absolute;
+  z-index: 9999;
+}
+
+.skin-blue .main-header .logo {
+  background-color: #fff !important; 
+  color: #fff !important;
+  border-bottom: 0 solid transparent !important;
+}
+
+.skin-blue .main-header .navbar {
+  background-color: #82c9d0 !important;
+}
+
+.skin-blue .main-header li.user-header {
+  background-color: #82c9d0 !important;
+}
+/*--------------------*/
+
+/* treeview */
+.treeview-item.active, .treeview-item:hover, .treeview-item:focus {
+  background: #0d1214;
+  text-decoration: none;
+  color: #fff!important;
+}
+.treeview-menu {
+  padding-left: 0;
+  list-style: none;
+}
+/* -------- */
+
+.box-body {
+  padding: 20px;
+}
+.box-body, .preview {
+  padding: 20px 10px;
+}
+
+.nobody {
+  display: none;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.bg-warning {
+  background-color: #ffcccc!important;
+}
+.main-header {
+  z-index: 1000!important;
+}
+
+/* by Nut */
+.form-title {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(0,0,0,.2);
+  font-size: 15px;
+  font-weight: 300;
+  color: #262626;
+  margin-bottom: 15px;
+}
+
+.title-mid {
+  font-weight: 700!important;
+  font-size: 19px!important;
+  color: rgb(29, 77, 76);
+}
+.alerting-title {
+  font-size: 1.2rem;
+  padding: 2px;
+}
+
+.warning-content-box {
+  max-height: 70vh;
+  overflow: auto;
+}
+.warning-content-box > .title {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bg-loadlead-result-total {
+  background-color: #ade3f9;
+}
+.bg-loadlead-result-success {
+  background-color: #bfeabfd9;
+}
+.bg-loadlead-result-dup {
+  background-color: #f9cca5;
+}
+.bg-loadlead-result-block {
+  background-color: #f9a5ad;
+}
+
+.upload-message {
+  padding: 0 0 25px 0;
+  color: green;
+}
+
+.btn-avail-call{
+  background-color: green !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.btn-avail-call:hover{
+  background-color: #008000ba !important;
+}
