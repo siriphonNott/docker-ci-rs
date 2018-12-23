@@ -9,7 +9,7 @@ services:
       context: ./db/
     volumes:
       - mysql_data_ci:/var/lib/mysql
-      # - ./db/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+      #- ./db/dump.sql:/docker-entrypoint-initdb.d/setup.sql
     # docker run --network ci_cetwork
     networks:
       - ci_network

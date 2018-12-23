@@ -8,8 +8,8 @@ RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 RUN docker-php-ext-install mysqli
 
 #install vim
-RUN apt-get update && apt-get install -y \
-    vim 
+# RUN apt-get update && apt-get install -y \
+#     vim 
 
 #Enable module rewrite
 RUN a2enmod rewrite
